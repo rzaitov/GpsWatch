@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E48E9161A65B36600640A1E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E48E9151A65B36600640A1E /* main.m */; };
+		5E48E9191A65B36600640A1E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E48E9181A65B36600640A1E /* AppDelegate.m */; };
+		5E48E91C1A65B36600640A1E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E48E91B1A65B36600640A1E /* ViewController.m */; };
+		5E48E91F1A65B36600640A1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E48E91D1A65B36600640A1E /* Main.storyboard */; };
+		5E48E9211A65B36600640A1E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E48E9201A65B36600640A1E /* Images.xcassets */; };
+		5E48E9241A65B36600640A1E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E48E9221A65B36600640A1E /* LaunchScreen.xib */; };
+		5E48E9441A65B41300640A1E /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E48E9431A65B41300640A1E /* InterfaceController.m */; };
+		5E48E9471A65B41300640A1E /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E48E9461A65B41300640A1E /* NotificationController.m */; };
+		5E48E9491A65B41300640A1E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E48E9481A65B41300640A1E /* Images.xcassets */; };
+		5E48E94D1A65B41300640A1E /* GpsWatch WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 5E48E94C1A65B41300640A1E /* GpsWatch WatchKit App.app */; };
+		5E48E9551A65B41300640A1E /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E48E9531A65B41300640A1E /* Interface.storyboard */; };
+		5E48E9571A65B41300640A1E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E48E9561A65B41300640A1E /* Images.xcassets */; };
+		5E48E95A1A65B41300640A1E /* GpsWatch WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 5E48E93D1A65B41300640A1E /* GpsWatch WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5E48E94E1A65B41300640A1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E48E9081A65B36600640A1E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E48E94B1A65B41300640A1E;
+			remoteInfo = "GpsWatch WatchKit App";
+		};
+		5E48E9581A65B41300640A1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E48E9081A65B36600640A1E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E48E93C1A65B41300640A1E;
+			remoteInfo = "GpsWatch WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5E48E9611A65B41300640A1E /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				5E48E95A1A65B41300640A1E /* GpsWatch WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5E48E9101A65B36600640A1E /* GpsWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GpsWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E48E9141A65B36600640A1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E48E9151A65B36600640A1E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5E48E9171A65B36600640A1E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5E48E9181A65B36600640A1E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5E48E91A1A65B36600640A1E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5E48E91B1A65B36600640A1E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5E48E91E1A65B36600640A1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5E48E9201A65B36600640A1E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5E48E9231A65B36600640A1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		5E48E92E1A65B36600640A1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E48E92F1A65B36600640A1E /* GpsWatchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GpsWatchTests.m; sourceTree = "<group>"; };
+		5E48E93D1A65B41300640A1E /* GpsWatch WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "GpsWatch WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E48E9401A65B41300640A1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E48E9411A65B41300640A1E /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		5E48E9421A65B41300640A1E /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		5E48E9431A65B41300640A1E /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		5E48E9451A65B41300640A1E /* NotificationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationController.h; sourceTree = "<group>"; };
+		5E48E9461A65B41300640A1E /* NotificationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationController.m; sourceTree = "<group>"; };
+		5E48E9481A65B41300640A1E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5E48E94C1A65B41300640A1E /* GpsWatch WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GpsWatch WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E48E9521A65B41300640A1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E48E9541A65B41300640A1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		5E48E9561A65B41300640A1E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E48E90D1A65B36600640A1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E48E93A1A65B41300640A1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E48E9071A65B36500640A1E = {
+			isa = PBXGroup;
+			children = (
+				5E48E9121A65B36600640A1E /* GpsWatch */,
+				5E48E92C1A65B36600640A1E /* GpsWatchTests */,
+				5E48E93E1A65B41300640A1E /* GpsWatch WatchKit Extension */,
+				5E48E9501A65B41300640A1E /* GpsWatch WatchKit App */,
+				5E48E9111A65B36600640A1E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5E48E9111A65B36600640A1E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E48E9101A65B36600640A1E /* GpsWatch.app */,
+				5E48E93D1A65B41300640A1E /* GpsWatch WatchKit Extension.appex */,
+				5E48E94C1A65B41300640A1E /* GpsWatch WatchKit App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E48E9121A65B36600640A1E /* GpsWatch */ = {
+			isa = PBXGroup;
+			children = (
+				5E48E9171A65B36600640A1E /* AppDelegate.h */,
+				5E48E9181A65B36600640A1E /* AppDelegate.m */,
+				5E48E91A1A65B36600640A1E /* ViewController.h */,
+				5E48E91B1A65B36600640A1E /* ViewController.m */,
+				5E48E91D1A65B36600640A1E /* Main.storyboard */,
+				5E48E9201A65B36600640A1E /* Images.xcassets */,
+				5E48E9221A65B36600640A1E /* LaunchScreen.xib */,
+				5E48E9131A65B36600640A1E /* Supporting Files */,
+			);
+			path = GpsWatch;
+			sourceTree = "<group>";
+		};
+		5E48E9131A65B36600640A1E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5E48E9141A65B36600640A1E /* Info.plist */,
+				5E48E9151A65B36600640A1E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5E48E92C1A65B36600640A1E /* GpsWatchTests */ = {
+			isa = PBXGroup;
+			children = (
+				5E48E92F1A65B36600640A1E /* GpsWatchTests.m */,
+				5E48E92D1A65B36600640A1E /* Supporting Files */,
+			);
+			path = GpsWatchTests;
+			sourceTree = "<group>";
+		};
+		5E48E92D1A65B36600640A1E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5E48E92E1A65B36600640A1E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5E48E93E1A65B41300640A1E /* GpsWatch WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				5E48E9421A65B41300640A1E /* InterfaceController.h */,
+				5E48E9431A65B41300640A1E /* InterfaceController.m */,
+				5E48E9451A65B41300640A1E /* NotificationController.h */,
+				5E48E9461A65B41300640A1E /* NotificationController.m */,
+				5E48E9481A65B41300640A1E /* Images.xcassets */,
+				5E48E93F1A65B41300640A1E /* Supporting Files */,
+			);
+			path = "GpsWatch WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		5E48E93F1A65B41300640A1E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5E48E9401A65B41300640A1E /* Info.plist */,
+				5E48E9411A65B41300640A1E /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5E48E9501A65B41300640A1E /* GpsWatch WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				5E48E9531A65B41300640A1E /* Interface.storyboard */,
+				5E48E9561A65B41300640A1E /* Images.xcassets */,
+				5E48E9511A65B41300640A1E /* Supporting Files */,
+			);
+			path = "GpsWatch WatchKit App";
+			sourceTree = "<group>";
+		};
+		5E48E9511A65B41300640A1E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5E48E9521A65B41300640A1E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5E48E90F1A65B36600640A1E /* GpsWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E48E9331A65B36600640A1E /* Build configuration list for PBXNativeTarget "GpsWatch" */;
+			buildPhases = (
+				5E48E90C1A65B36600640A1E /* Sources */,
+				5E48E90D1A65B36600640A1E /* Frameworks */,
+				5E48E90E1A65B36600640A1E /* Resources */,
+				5E48E9611A65B41300640A1E /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E48E9591A65B41300640A1E /* PBXTargetDependency */,
+			);
+			name = GpsWatch;
+			productName = GpsWatch;
+			productReference = 5E48E9101A65B36600640A1E /* GpsWatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5E48E93C1A65B41300640A1E /* GpsWatch WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E48E95E1A65B41300640A1E /* Build configuration list for PBXNativeTarget "GpsWatch WatchKit Extension" */;
+			buildPhases = (
+				5E48E9391A65B41300640A1E /* Sources */,
+				5E48E93A1A65B41300640A1E /* Frameworks */,
+				5E48E93B1A65B41300640A1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E48E94F1A65B41300640A1E /* PBXTargetDependency */,
+			);
+			name = "GpsWatch WatchKit Extension";
+			productName = "GpsWatch WatchKit Extension";
+			productReference = 5E48E93D1A65B41300640A1E /* GpsWatch WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		5E48E94B1A65B41300640A1E /* GpsWatch WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E48E95B1A65B41300640A1E /* Build configuration list for PBXNativeTarget "GpsWatch WatchKit App" */;
+			buildPhases = (
+				5E48E94A1A65B41300640A1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GpsWatch WatchKit App";
+			productName = "GpsWatch WatchKit App";
+			productReference = 5E48E94C1A65B41300640A1E /* GpsWatch WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5E48E9081A65B36600640A1E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Rustam Zaitov";
+				TargetAttributes = {
+					5E48E90F1A65B36600640A1E = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					5E48E93C1A65B41300640A1E = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					5E48E94B1A65B41300640A1E = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = 5E48E90B1A65B36600640A1E /* Build configuration list for PBXProject "GpsWatch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5E48E9071A65B36500640A1E;
+			productRefGroup = 5E48E9111A65B36600640A1E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5E48E90F1A65B36600640A1E /* GpsWatch */,
+				5E48E93C1A65B41300640A1E /* GpsWatch WatchKit Extension */,
+				5E48E94B1A65B41300640A1E /* GpsWatch WatchKit App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5E48E90E1A65B36600640A1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E48E91F1A65B36600640A1E /* Main.storyboard in Resources */,
+				5E48E9241A65B36600640A1E /* LaunchScreen.xib in Resources */,
+				5E48E9211A65B36600640A1E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E48E93B1A65B41300640A1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E48E9491A65B41300640A1E /* Images.xcassets in Resources */,
+				5E48E94D1A65B41300640A1E /* GpsWatch WatchKit App.app in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E48E94A1A65B41300640A1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E48E9551A65B41300640A1E /* Interface.storyboard in Resources */,
+				5E48E9571A65B41300640A1E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E48E90C1A65B36600640A1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E48E91C1A65B36600640A1E /* ViewController.m in Sources */,
+				5E48E9191A65B36600640A1E /* AppDelegate.m in Sources */,
+				5E48E9161A65B36600640A1E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E48E9391A65B41300640A1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E48E9471A65B41300640A1E /* NotificationController.m in Sources */,
+				5E48E9441A65B41300640A1E /* InterfaceController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5E48E94F1A65B41300640A1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E48E94B1A65B41300640A1E /* GpsWatch WatchKit App */;
+			targetProxy = 5E48E94E1A65B41300640A1E /* PBXContainerItemProxy */;
+		};
+		5E48E9591A65B41300640A1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E48E93C1A65B41300640A1E /* GpsWatch WatchKit Extension */;
+			targetProxy = 5E48E9581A65B41300640A1E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5E48E91D1A65B36600640A1E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E48E91E1A65B36600640A1E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5E48E9221A65B36600640A1E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E48E9231A65B36600640A1E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		5E48E9531A65B41300640A1E /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E48E9541A65B41300640A1E /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5E48E9311A65B36600640A1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5E48E9321A65B36600640A1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E48E9341A65B36600640A1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GpsWatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5E48E9351A65B36600640A1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GpsWatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5E48E95C1A65B41300640A1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = GpsWatch_WatchKit_Extension;
+				INFOPLIST_FILE = "GpsWatch WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		5E48E95D1A65B41300640A1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				IBSC_MODULE = GpsWatch_WatchKit_Extension;
+				INFOPLIST_FILE = "GpsWatch WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		5E48E95F1A65B41300640A1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "GpsWatch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		5E48E9601A65B41300640A1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "GpsWatch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5E48E90B1A65B36600640A1E /* Build configuration list for PBXProject "GpsWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E48E9311A65B36600640A1E /* Debug */,
+				5E48E9321A65B36600640A1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E48E9331A65B36600640A1E /* Build configuration list for PBXNativeTarget "GpsWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E48E9341A65B36600640A1E /* Debug */,
+				5E48E9351A65B36600640A1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5E48E95B1A65B41300640A1E /* Build configuration list for PBXNativeTarget "GpsWatch WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E48E95C1A65B41300640A1E /* Debug */,
+				5E48E95D1A65B41300640A1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5E48E95E1A65B41300640A1E /* Build configuration list for PBXNativeTarget "GpsWatch WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E48E95F1A65B41300640A1E /* Debug */,
+				5E48E9601A65B41300640A1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5E48E9081A65B36600640A1E /* Project object */;
+}
